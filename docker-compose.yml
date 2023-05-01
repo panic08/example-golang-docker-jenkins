@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  my-go-app:
+    image: panic08/sample-golang-app:latest
+    ports:
+      - "8080:8080"
